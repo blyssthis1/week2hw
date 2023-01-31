@@ -6,6 +6,11 @@
 
 for alist in range(1,11):
     print(alist,alist**3)
+
+    # if to 1000 then its below:
+
+    for alist in range(1,1001):
+        print(alist,alist**3)
     
 
 
