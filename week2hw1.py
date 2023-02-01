@@ -4,13 +4,13 @@
 #Meaning that if the cubed number is
 # over 1000 break the loop.
 
-for alist in range(1,11):
-    print(alist,alist**3)
+# for alist in range(1,11):
+#     print(alist,alist**3)
 
-    # if to 1000 then its below:
+#     # if to 1000 then its below:
 
-    for alist in range(1,1001):
-        print(alist,alist**3)
+#     for alist in range(1,1001):
+#         print(alist,alist**3)
     
 
 
@@ -19,7 +19,7 @@ for alist in range(1,11):
 #Excercise 4
 #Get first prime numbers up to 100:
 
-for number in range(1,101):
+for number in range(1, 101):
     if number == 2:
         print(2)
     if number % 2 == 0:
@@ -28,6 +28,8 @@ for number in range(1,101):
         print(3)
     if number % 3 == 0:
         continue
+    if number == 5:
+        print(5)
     if number % 5 == 0:
         continue
     # if number % 6 == 0:
@@ -52,11 +54,11 @@ for number in range(1,101):
 #if they're 18 to 65 print adults, else print seniors:
 
 
-age = int((input("What is your age?")))
-if age <18:
-    print('kids')
-elif age == 18:
-    print('adults')
-elif age <=65:
-    print('adults')
-else: print('seniors')
+# age = int((input("What is your age?")))
+# if age <18:
+#     print('kids')
+# elif age == 18:
+#     print('adults')
+# elif age <=65:
+#     print('adults')
+# else: print('seniors')
